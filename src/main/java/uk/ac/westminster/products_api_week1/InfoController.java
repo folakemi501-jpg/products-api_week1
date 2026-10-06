@@ -10,6 +10,4 @@ public class InfoController {
     public String info(){
         return "Products API — 5COSC019W Tutorial 1 build. ";
     }
-
-
 }

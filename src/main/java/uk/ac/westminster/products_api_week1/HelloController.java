@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.time.LocalDate;
 
 @RestController
-public class helloController {
+public class HelloController {
 
     //use get mapping to know which class to get the hello message
     @GetMapping("/hello") //the get request of hello will go the server
