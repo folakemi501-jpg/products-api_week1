@@ -10,8 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 //this is so we dont have to repeat product every time
 public class ProductController {
 
-    @GetMapping("/{id}")
-    public Product getById(@PathVariable Long id) { //this is a method that returns the objects product
-        return new Product(id, "Laptop", 999.99);
+    @GetMapping("/{id}") //the id is a placeholder
+    public Product getById(@PathVariable Long id) { //placeholder is transferred to the parameter
+        //inside the method which is tucked by thr path annotation
+        return new Product(id, "Laptop", 999.99); //returns the objects product
     }
 }
