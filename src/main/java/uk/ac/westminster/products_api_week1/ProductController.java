@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController //just to find the mapping
 @RequestMapping("/products") //this controller handles every URL that starts with / products
-//this is so we dont have to repeat product every time
+//this is so we don't have to repeat product every time
 public class ProductController {
 
     @GetMapping("/{id}") //the id is a placeholder
